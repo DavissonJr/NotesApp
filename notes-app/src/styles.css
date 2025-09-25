@@ -1,0 +1,57 @@
+:root {
+
+
+    .editor-panel {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    height: calc(100vh - 2rem);
+    overflow: auto;
+    }
+    
+    
+    .note-title-input {
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    }
+    
+    
+    .note-content-textarea {
+    border: none;
+    outline: none;
+    resize: none;
+    min-height: 60vh;
+    }
+    
+    
+    .preview-card {
+    background: #fafafa;
+    border-radius: 8px;
+    padding: 0.8rem;
+    }
+    
+    
+    .header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-bottom: 0.6rem;
+    }
+    
+    
+    .small-muted {
+    color: var(--muted);
+    font-size: 0.85rem;
+    }
+    
+    
+    /* mobile responsiveness */
+    @media (max-width: 768px) {
+    .sidebar { display: none; }
+    .app-shell { padding: 0.5rem; }
+    }
+}
